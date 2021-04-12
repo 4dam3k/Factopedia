@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="icon" href="../shared/factorio.png">
+  <link rel="stylesheet" href="../shared/css.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <script src="../scripty/skrypty.js"></script>
+  <title>
+    Factopedia
+  </title>
+</head>
+
+<body onload="zegarekjs();">
+  <div id="wladca">
+    <!-- <div id="invis"></div> -->
+    <div id="obejmenu">
+      <div id="menu">
+        <!-- <div id="pusty"></div> -->
+        <a href="../main/index.html">
+          <div id="link1" class="option">Strona Główna</div>
+        </a>
+        <a href="../s1/s1.html">
+          <div id="link2" class="option">Transport</div>
+        </a>
+        <a href="../s2/s2.html">
+          <div id="link3" class="option">Surowce</div>
+        </a>
+        <a href="../s3/s3.html">
+          <div id="link4" class="option">Badania i Automatyzacja</div>
+        </a>
+        <a href="../s4/s4.html">
+          <div id="link5" class="option">Strona 4</div>
+        </a>
+        <div style="clear:both"> </div>
+      </div>
+    </div>
+
+    <div id="container">
+
+      <div id="tbarzegar">
+
+        <div id="topbar">
+          <div id="topbarl">
+            <a href="https://www.factorio.com">
+            <img src="../shared/factorio_logo.png" class="logopng"></a>
+          </div>
+          <div id="topbarr">
+            <a href="https://www.facebook.com/Factorio">
+              <img src="../shared/facebooklogo.png" width=60% class="logopng"></a>
+          </div>
+        </div>
+
+        <div id="zegar">
+          <div id="zegarczas"></div>
+          <div id="zegardata"></div>
+        </div>
+
+      </div>
+
+      <div id="obejtekst">
+        <div id="tresc">
+
+          <h1> Transport </h1>
+
+          W <b>Factorio</b> występują 4 rodzaje transportu
+          przedmiotów oraz graczy.
+          <br><br>
+          <div class="top">
+            <div class="column">
+              Taśmociągi
+              <img src="belttransport.gif" style="width:100%"
+               onclick="galerytransport(this);" onload="galerytransport(this);" id="beltgif">
+            </div>
+            <div class="column">
+              Pojazdy
+              <img src="cartransport.gif" style="width:100%"
+               onclick="galerytransport(this);" id="carpng">
+            </div>
+            <div class="column">
+              Pociągi
+              <img src="traintransport.png" style="width:100%"
+               onclick="galerytransport(this);" id="trainpng">
+            </div>
+            <div class="column">
+              Drony
+              <img src="drontransport.gif" style="width:100%"
+               onclick="galerytransport(this);" id="dronpng">
+            </div>
+          </div>
+          <div class="galerytransportfsimg">
+            <img id="fspng">
+            <div id="tekstpng"></div>
+          </div>
+          <div id="tekstpfs">
+            <div class="tekstpfs1">
+            W labolatoriach odblokować można nowe sposoby transportu. <br>
+            Pojazdy i pociągi wymagają silników, a drony silniczków i baterii.
+          </div>
+            <div id="Labgif1">
+              <img src="Labgif.gif" class="Labgif" style="width:60%">
+            </div>
+          </div>
+        </div>
+        <div id="beltalt">
+          W Factorio taśmociągi są głównym transportem
+          dla przedmiotów w fabryce. To dzięki nim surowce
+          poruszają się między maszynami. <br><br>
+          Dostępne są 3 rodzaje taśmociągów.
+          Taśmociągi różnią się prędkością z jaką poruszają się
+          po nich przedmioty oraz długością pasów podziemnych. <br>
+          Każdy następny rodzaj można odblokować za pomocą badań. <br><br>
+          Każdy taśmociąg ma swoją podziemną odmianę oraz sortownik. <br>
+          Taśmociąg składa się z dwóch pasów transmisyjnych, na których
+        </div>
+        <div id="caralt">
+          Pojazdy lądowe dostępne są wraz z rozwojem fabryki. <br><br>
+          Auta są szybkim sposobem na poruszanie się między fabrykami,
+          mogą obronić cię przed małą grupką robaków
+          oraz transportować niewiele przedmiotów. <br><br>
+          Czołgi są wolniejszym sposobem na przemieszczanie się,
+          jednak mogą rozjeżdżać wrogie obozy oraz rozprawiać się
+          z wieloma przeciwnikami na raz. <br><br>
+          Obrażenia i efekt zadany przez broń zamontowaną
+          na dachu jest zależna od amunicji oraz postępu
+          badań w labolatorium.
+        </div>
+        <div id="trainalt">
+          Kolej dostępna jest w względnie wczesnym stadium
+          rozwoju fabryki. Pozwala na transport przedmiotów
+          i płynów oraz na obronę przed przeciwnikami. <br><br>
+          Wraz z odkryciem nowych technologi, można robić coraz to
+          bardziej zautomatyzowane systemy. <br><br>
+          Wagony towarowe mogą przenieść do 40 staków przedmiotów (40*100)<br>
+          natomiast cysterny przetrzymają 25 tysięcy litrów. <br><br>
+          W kontroli ruchu kolejowego pomagają różne obwody oraz procesory logiczne.
+
+        </div>
+        <div id="dronalt">
+          Drony są dostępne w późniejszym stadium postępu. <br><br>
+          Pozwalają one na budowę fabryk, transport i sortowanie przedmiotów
+          oraz na obronę przed przeciwnikami. <br><br>
+          Są 3 rodzaje dronów: <br>
+          - Logistyczne <br>
+          - Budowlane <br>
+          - Obronne <br><br>
+          Są one w stanie sortować przedmioty,
+          budować według planu oraz bronić gracza.
+        </div>
+      </div>
+        </div>
+        <div id="obejmenubot">
+          <div id="menubot">
+            <a href="../main/index.html">
+              <div id="link1" class="optionbot">Strona Główna</div>
+            </a>
+            <a href="../s1/s1.html">
+              <div id="link2" class="optionbot">Transport</div>
+            </a>
+            <a href="../s2/s2.html">
+              <div id="link3" class="optionbot">Surowce</div>
+            </a>
+            <a href="../s3/s3.html">
+              <div id="link4" class="optionbot">Badania i Automatyzacja</div>
+            </a>
+            <a href="../s4/s4.html">
+              <div id="link5" class="optionbot">Strona 4</div>
+            </a>
+          </div>
+        </div>
+  </div>
+</body>
+
+</html>
