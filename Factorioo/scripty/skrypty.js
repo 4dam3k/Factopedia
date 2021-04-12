@@ -33,16 +33,16 @@ function galerytransport(png) {
   fspng.style.visibility = "visible";
   fspng.style.height = "auto"
 
-  if(png.src == "http://192.168.0.113/stronka/belttransport.gif"){
+  if(png.src == "../s2/belttransport.gif"){
     textpng.innerHTML = beltalt.innerHTML;
   }
-  if(png.src == "http://192.168.0.113/stronka/cartransport.gif"){
+  if(png.src == "../s2/cartransport.gif"){
     textpng.innerHTML = caralt.innerHTML;
   }
-  if(png.src == "http://192.168.0.113/stronka/traintransport.png"){
+  if(png.src == "../s2/traintransport.png"){
     textpng.innerHTML = trainalt.innerHTML;
   }
-  if(png.src == "http://192.168.0.113/stronka/drontransport.gif"){
+  if(png.src == "../s2/drontransport.gif"){
     textpng.innerHTML = dronalt.innerHTML;
   }
   galerytransportfsimg.style.display = "block";
