@@ -33,7 +33,7 @@ function galerytransport(png) {
   fspng.style.visibility = "visible";
   fspng.style.height = "auto"
 
-  if(png.id == "belgif"){
+  if(png.id == "beltgif"){
     textpng.innerHTML = beltalt.innerHTML;
   }
   if(png.id == "cargif"){
