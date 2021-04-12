@@ -33,16 +33,16 @@ function galerytransport(png) {
   fspng.style.visibility = "visible";
   fspng.style.height = "auto"
 
-  if(png.src == "belttransport.gif"){
+  if(png.id == "belgif"){
     textpng.innerHTML = beltalt.innerHTML;
   }
-  if(png.src == "cartransport.gif"){
+  if(png.id == "cargif"){
     textpng.innerHTML = caralt.innerHTML;
   }
-  if(png.src == "traintransport.png"){
+  if(png.id == "trainpng"){
     textpng.innerHTML = trainalt.innerHTML;
   }
-  if(png.src == "drontransport.gif"){
+  if(png.id == "drongif"){
     textpng.innerHTML = dronalt.innerHTML;
   }
   galerytransportfsimg.style.display = "block";
