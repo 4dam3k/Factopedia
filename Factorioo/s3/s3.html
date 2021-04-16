@@ -4,12 +4,12 @@
 <head>
 
   <meta charset="utf-8">
-  <link rel="icon" href="factorio.png">
-  <link rel="stylesheet" href="css.css" type="text/css" />
+  <link rel="icon" href="../shared/factorio.png">
+  <link rel="stylesheet" href="../shared/css.css" type="text/css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-  <script src="skrypty.js"></script>
+  <script src="../scripty/skrypty.js"></script>
   <title>
     Factopedia
   </title>
@@ -21,19 +21,19 @@
     <div id="obejmenu">
       <div id="menu">
         <!-- <div id="pusty"></div> -->
-        <a href="index.html">
+        <a href="../index.html">
           <div id="link1" class="option" draggable="false">Strona Główna</div>
         </a>
-        <a href="s1.html">
+        <a href="../s1/s1.html">
           <div id="link2" class="option" draggable="false">Transport</div>
         </a>
-        <a href="s2.html">
+        <a href="../s2/s2.html">
           <div id="link3" class="option" draggable="false">Surowce</div>
         </a>
-        <a href="s3.html">
+        <a href="../s3/s3.html">
           <div id="link4" class="option" draggable="false">Badania i Automatyzacja</div>
         </a>
-        <a href="s4.html">
+        <a href="../s4/s4.html">
           <div id="link5" class="option" draggable="false">Strona 4</div>
         </a>
         <div style="clear:both"> </div>
@@ -47,11 +47,11 @@
         <div id="topbar">
           <div id="topbarl">
             <a href="https://www.factorio.com">
-            <img src="factorio_logo.png" class="logopng"> </a>
+            <img src="../shared/factorio_logo.png" class="logopng"> </a>
           </div>
           <div id="topbarr">
             <a href="https://www.facebook.com/Factorio">
-              <img src="facebooklogo.png" width=60% class="logopng"></a>
+              <img src="../shared/facebooklogo.png" width=60% class="logopng"></a>
           </div>
         </div>
 
@@ -64,61 +64,68 @@
 
       <div id="obejtekst">
         <div id="tresc">
-
-          <h1> Surowce i metalurgia </h1>
-
-            Tworząc świat, na mapie pojawiają się <b>surowce</b>.
-            Są one potrzebne zarówno, na początkach rozgrywki, jak i w jej końcu.<br><br>
-
-            W grze znajduje się <b>5</b> podstawowych rud,
-            które pojawiają się w formie dużych plam złóż na powierzchni.<br><br>
-
-            Najpotrzebniejszymi rudami są <b>Miedź</b> i <b>Żelazo</b>.
-            By wykorzystać te dwa surowce, musimy je przepalić.
-            Do tego służy <b>Węgiel</b> w piecu. Oprócz tego,
-            wykorzystuje się go w elektrowni. <br>
-            <b>Kamień</b> wykorzystywany jest jako budulec. <br>
-            A <b>Uran</b> potrzebny jest w późniejszej części
-            rozgrywki jako paliwo i źródło energi.
-
+          Całe <b>Factorio</b> opiera się na zautomatyzowaniu praktycznie wszystkiego co można. <br>
+          Surowce wykorzystywane są w ilościach hurtowych do produkcji następnych komponentów. <br><br>
+          Najpotrzebniejsze są: obwody elektryczne, kable miedziane oraz zębatki.
+          Przynajmniej jedna z wymienionych wykorzystywana jest w produkcji przedmiotów.
+          Ręczne wyrabianie tych rzeczy jest nieefektywne oraz niepraktyczne.<br>
+          Do tego celu stworzone zostały Automaty produkcyjne. <br><br>
         </div>
-        <div id="galerys2">
-          <img src="IronOre_gif.gif"    id="OreGif" width="40%">
-          <img src="CopperOre_gif.gif"  id="OreGif" width="40%">
-          <img src="CoalOre_gif.gif"    id="OreGif" width="40%">
-          <img src="StoneOre_gif.gif"   id="OreGif" width="40%">
-        </div>
-
+          <div id="galerybia1">
+            <img src="Assemblyt1.png" id="bia1" width="30%">
+            <img src="Assemblyt2.gif" id="bia1" width="30%">
+            <img src="Assemblyt3.gif" id="bia1" width="30%">
+          </div>
         <div id="tresc">
-            Rudy żelaza i miedzi przed wykorzystaniem
-            jako przedmiot muszą zostać przetworzone w piecu. <br>
-            Następne rodzaj pieca może zostać odblokowany w badaniach.
-            Dostępne są 3 piece: <br>
-            Zwykły - Kamienny <br>
-            Szybszy - Stalowy <br>
-            Najszybszy - Elektryczny <br>
-
+          Automaty do działania wymagają ustalonej receptury, przedmiotów wymaganych do wytworzenia przedmiotu oraz prądu. <br>
+          Niektóre przedmioty wymagają niezwykłej precyzji co powoduje, że tylko automat jest do tego zdolny.
+          Wyższe poziomy budynku mogą obsługiwać też płyny. <br><br><br>
         </div>
-        <div id="galerys2" class="piecgif">
-          <img src="piecgif.gif" id="OreGif" width="40%">
+        <div id="tresc">
+          W grze występuje drzewko odkryć zwane także drzewko technologii, które jest głównym trzonem rozwoju.
+          Do dalszego postępu potrzebujemy Labolatorium.
+          Każde badanie wymaga odpowiedniej ilości różnych pakietów badawczych. <br>
+          W grze jest siedem pakietów:<br><br>
+          <a class="listctzg">•</a> Czerwony - podstawowy <br>
+          <a class="listctzg">•</a> Zielony - drugi podstawowy <br>
+          <a class="listctzg">•</a> Czarny - Militarny <br>
+          <a class="listctzg">•</a> Niebieski - Chemiczny <br>
+          <a class="listctzg">•</a> Fioletowy - Produkcyjny <br>
+          <a class="listctzg">•</a> Żółty - Użytkowy <br>
+          <a class="listctzg">•</a> Biały - Kosmiczny <br> <br><br>
+          <div id="galerybia1">
+            <img src="Labgif.gif" id="bia1" width="70%">
+            <img src="Research.png" id="bia2" width="60%">
+          </div><br><br>
+          Pierwsze dwa (Czerwony i Zielony) potrzebne są w każdej technologii.
+          Więc powinny zostać zautomatyzowane w pierwszej kolejności.<br><br>
+          Czarny wymagany jest tylko do odblokowania broni chemicznej oraz palnej. <br><br>
+          Niebieski używany jest w odkryciu broni chemicznej oraz wielu przedmiotów związanych z płynami. <br><br>
+          Fioletowy potrzebny jest przy badaniach nad modułami prędkości oraz uranem. <br><br>
+          Żółty wymagany jest do odblokowania podróży w kosmos, bomb atomowych oraz potężnych maszyn bojowych <br><br>
+          Biały pakiet jest specyficznym przedmiotem, jako jedyny tworzony jest za pomocą podróży w kosmos.
+          By go uzyskać potrzebna jest satelita w kosmosie oraz wystrzelenie rakiety z silosa.
+          Jest on końcowym pakietem a wykorzystywany jest tylko do wzmocnienia prędkości maszyn
+          oraz obrażeń zadawanych przez broń. <br><br>
+
         </div>
       </div>
 
       <div id="obejmenubot">
         <div id="menubot">
-          <a href="index.html">
+          <a href="../index.html">
             <div id="link1" class="optionbot">Strona Główna</div>
           </a>
-          <a href="s1.html">
+          <a href="../s1/s1.html">
             <div id="link2" class="optionbot">Transport</div>
           </a>
-          <a href="s2.html">
+          <a href="../s2/s2.html">
             <div id="link3" class="optionbot">Surowce</div>
           </a>
-          <a href="s3.html">
+          <a href="../s3/s3.html">
             <div id="link4" class="optionbot">Badania i Automatyzacja</div>
           </a>
-          <a href="s4.html">
+          <a href="../s4/s4.html">
             <div id="link5" class="optionbot">Strona 4</div>
           </a>
         </div>
