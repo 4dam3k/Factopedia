@@ -401,6 +401,13 @@ h2 {
 
 /* Koniec s2.html */
 /* s3.html */
+#AssemblyGalery {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transition: 0.6s;
+  padding-left:10%;
+}
 #galerybia1 {
   display:flex;
   flex-wrap: wrap;
