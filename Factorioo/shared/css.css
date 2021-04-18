@@ -452,6 +452,11 @@ h2 {
   transition: 0.6s;
 }
 /* Koniec s4.html */
+/* Start bio.html */
+#biopusty {
+  height: 200px;
+}
+/* Koniec bio.html */
 /* linki i scrollbar */
 a:link {
   color: #000000;
