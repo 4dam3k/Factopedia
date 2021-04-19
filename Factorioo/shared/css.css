@@ -98,7 +98,7 @@ div#link1 {
 }
 
 #zegar {
-  cursor: url("http://www.rw-designer.com/cursor-view/28793.png"), auto;
+  cursor: url("./cursorwait.png"), auto;
   border-bottom-left-radius: 20px;
   background-color: #525252;
   height: 75px;
