@@ -4,7 +4,7 @@ body {
   transition: 0.6s;
   display: flex;
   justify-content: center;
-  cursor: url("/shared/cursordef.png"), default;
+  cursor: url("./cursordef.png"), auto;
 }
 
 #wladca {
@@ -69,7 +69,7 @@ h1 {
 }
 
 .option:hover {
-  cursor: url("/shared/cursorsel.png"), pointer;
+  cursor: url("./cursorsel.png"), auto;
   background-color: #858585;
   box-shadow: 0 0 20px #858585;
   border-left: 1.5px dashed #000000;
@@ -89,6 +89,7 @@ div#link1 {
   cursor: grabbing;
   box-shadow: 2px 8px 40px #5E5E5E;
   transform: scale(1.05, 1.05);
+  cursor: url("./cursorsel.png"), auto;
 }
 
 #tbarzegar {
@@ -176,7 +177,7 @@ div#link1 {
 }
 
 .optionbot:hover {
-  cursor: url("/shared/cursorsel.png"), pointer;
+  cursor: url("./cursorsel.png"), auto;
   background-color: #858585;
   box-shadow: 0 0 20px #858585;
   border-left: 1.5px dashed #000000;
@@ -205,7 +206,7 @@ div#link1 {
 
 .logopng:hover {
   transform: scale(1.1);
-  cursor: url("/shared/cursorsel.png"), pointer;
+  cursor: url("./cursorsel.png"), auto;
 }
 
 .listctzg {
