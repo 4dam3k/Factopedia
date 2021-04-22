@@ -1,13 +1,18 @@
+html {
+  cursor: url("./cursordef.png"), default;
+}
+
 body {
   background-color: #8C8C8C;
   font-family: Quicksand;
   transition: 0.6s;
   display: flex;
   justify-content: center;
-  cursor: url("./cursordef.png"), auto;
+  cursor: url("./cursordef.png"), default;
 }
 
 #wladca {
+  cursor: url("./cursordef.png"), default;
   background-color: #737373;
   width: 1200px;
   border: 2px solid #000000;
@@ -83,13 +88,13 @@ div#link1 {
 }
 
 .option:active {
+  cursor: url("./cursorsel.png"), auto;
   transition: 0.6s;
   background-color: #5E5E5E;
   user-select: none;
   cursor: grabbing;
   box-shadow: 2px 8px 40px #5E5E5E;
   transform: scale(1.05, 1.05);
-  cursor: url("./cursorsel.png"), auto;
 }
 
 #tbarzegar {
@@ -183,7 +188,6 @@ div#link1 {
   border-left: 1.5px dashed #000000;
   transform: scale(1.1, 1.1);
   text-transform: scale(1.6, 1.6);
-  z-index: 3;
 }
 
 div#link1 {
@@ -241,6 +245,7 @@ div#link1 {
 }
 
 #endgame1png:hover {
+  cursor: url("./cursorsel.png"), auto;
   transform: translate(30%, -20%) scale(1.2);
   z-index: 4
 }
@@ -251,6 +256,7 @@ div#link1 {
 }
 
 #endgame2png:hover {
+  cursor: url("./cursorsel.png"), auto;
   transform: translate(-30%, -20%) scale(1.2);
   z-index: 4
 }
@@ -293,6 +299,7 @@ h2 {
 }
 
 .column img:hover {
+  cursor: url("./cursorsel.png"), auto;
   transform: scale(1.1);
   opacity: 1;
 }
@@ -389,6 +396,7 @@ h2 {
 }
 
 #OreGif {
+  cursor: url("./cursorsel.png"), auto;
   transition: 0.6s;
   border: 2px solid #000000;
   box-shadow: 0 0 30px #000000;
@@ -424,6 +432,7 @@ h2 {
   transition: 0.6s;
 }
 #bia:hover {
+  cursor: url("./cursorsel.png"), auto;
   transform: scale(1.3)
 }
 
